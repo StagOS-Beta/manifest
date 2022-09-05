@@ -27,7 +27,7 @@
 <include name="snippets/remove.xml" />
 
 <!-- Build first -->
- <project path="build/make" name="android_build_make" remote="stag-beta" >
+ <project path="build/make" name="android_build" remote="stag-beta" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -54,9 +54,9 @@
   <!-- <project path="hardware/interfaces" name="android_hardware_interfaces" remote="stag" /> --> 
   <project path="hardware/stag/interfaces" name="android_hardware_stag_interfaces" remote="stag-beta" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="stag-beta" revision="t13-caf" />
-  <!-- <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" />
-  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="stag" />
-  <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="stag" /> -->
+  <!-- <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="stag" /> -->
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="stag" revision="s12.1" />
+  <!--<project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="stag" /> -->
   <project path="packages/apps/Horns" name="android_packages_apps_Horns" remote="stag-beta" />
   <!-- <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="stag" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="stag" /> -->
@@ -67,9 +67,9 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="stag" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="stag" />
   <project path="external/colorkt" name="android_external_colorkt" remote="stag" />
-  <project path="external/erofs-utils" name="android_external_erofs-utils" remote="stag" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" />
-  <project path="external/themelib" name="android_external_themelib" remote="stag" /> -->
+  <project path="external/erofs-utils" name="android_external_erofs-utils" remote="stag" /> -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-stag" revision="s12.1" />
+  <!--<project path="external/themelib" name="android_external_themelib" remote="stag" /> -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="stag-beta" />
   <project path="system/core" name="android_system_core" remote="stag-beta" />
   <!-- <project path="system/extras" name="android_system_extras" remote="stag" />
