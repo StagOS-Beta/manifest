@@ -43,10 +43,11 @@
  </project>
 
   <!-- Now to track with elegance
-  <project path="frameworks/av" name="android_frameworks_av" remote="stag" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="stag" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="stag" />
-  <project path="art" name="android_art" remote="stag" /> -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="stag-beta" /> -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="stag-beta" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="stag-beta" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="stag-beta" />
+  <!-- <project path="art" name="android_art" remote="stag" /> -->
   <project path="bionic" name="android_bionic" remote="stag-beta" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="stag-beta" /> -->
   <project path="device/lineage/sepolicy" name="android_device_stag_sepolicy" remote="stag-beta" />
@@ -86,10 +87,10 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- Gapps -->
-  <project path="vendor/gms" name="vendor_gapps" remote="gitlab-stag" revision="s12.1" />
+  <project path="vendor/gms" name="vendor_gapps_thirteen" remote="gitlab-stag" revision="thirteen" />
 
-  <!-- Pixel Launcher -->
-  <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" remote="stag" revision="khonsu" />
+  <!-- Pixel Launcher
+  <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" remote="stag" revision="khonsu" /> -->
 
   <!-- repainter -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
