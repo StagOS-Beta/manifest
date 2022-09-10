@@ -75,9 +75,9 @@
   <project path="system/core" name="android_system_core" remote="stag-beta" />
   <!-- <project path="system/extras" name="android_system_extras" remote="stag" />
   <project path="system/libhwbinder" name="android_system_libhwbinder" remote="stag" />
-  <project path="system/netd" name="android_system_netd" remote="stag" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="stag" /> -->
+  <project path="system/netd" name="android_system_netd" remote="stag" />-->
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="stag-beta" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="stag-beta" /> 
   <project path="vendor/stag" name="android_vendor_stag" remote="stag-beta" />
 
   <!-- GCC -->
